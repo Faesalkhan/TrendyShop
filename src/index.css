@@ -1,0 +1,185 @@
+.navbar-logo span{
+  font-size: 2vw;
+  font-weight: 700;
+  background-color: #f73353;
+  padding: 3px;
+  border-radius: 10px;
+}
+.navbar-logo img{
+  width: 4rem;
+}
+.nav li a{
+color: black;
+font-size: 2vw
+}
+.handicon{
+  width: 8vw;
+}
+.herosection{
+  background-color: aqua;
+  line-height: 1.1;
+}
+.hero-left h2{
+  color: navy;
+  font-weight: 600;
+  font-size: 1vw;
+}
+.hero-left p{
+  color: darkblue;
+  font-size: 4vw;
+  font-weight: 700;
+}
+.hero-left button{
+  border-radius: 40px;
+  font-size: 1vw;
+  font-weight: 600;
+  width: 40%;
+  margin-left: 0.5rem;
+} 
+.hero-left button img{
+  width: 2vw;
+}
+
+
+.polularContainer h2{
+  font-size: 3vw;
+}
+
+.item:hover{
+  transform: scale(95%);
+}
+.item p{
+  font-size: 1vw;
+}
+.offers-section{
+  background-color: #83dfa2;
+}
+.offers-left h2{
+  font-size: 4vw;
+  font-weight: 600;
+}
+.offers-left p{
+  font-size: 1.3vw;
+}
+.offers-left button{
+  font-size: 1vw;
+  font-weight: 600;
+  width: 30%;
+  margin-left: 0.5rem;
+  padding: 3px;
+}
+.new-collection-container h2{
+  font-size: 3vw;
+}
+.newsletter-container h2{
+  font-size: 3vw;
+}
+.newsletter-container p{
+  font-size: 1.3vw;
+}
+.newsletter-container button{
+  font-size: 1vw;
+  padding: 3px;
+}
+.newsletter-container input{
+  height: 4vh;
+}
+.footer-container ul li a{
+  font-size: 1.4vw;
+}
+.footer-container .logo{
+  width: 6vw;
+}
+.footer-container h3{
+  font-size: 2vw;
+}
+.footer-container .pin,
+.footer-container .what,
+.footer-container .insta{
+  width: 2vw;
+}
+.footer-container p{
+  font-size: 1.4vw;
+}
+
+
+.shopCategory-container .showingtext{
+  font-size: 1.3vw;
+}
+.shopCategory-container button{
+  font-size: 1vw;
+  font-weight: 600;
+}
+.shopCategory-container .dropdownimg{
+  width: 1vw;
+}
+.login-container {
+  background-color: pink;
+  height: 100vh;
+}
+.login-container h1{
+  font-size: 3vw;
+}
+.login-container input{
+  font-size: 3vh;
+}
+.login-container button{
+  font-size: 1.2vw;
+  padding: 3px;
+}
+.login-container p,
+.login-container label{
+  font-size: 1vw;
+}
+.signup-container{
+  background-color: pink;
+  height: 100vh;
+}
+.signup-container h1{
+  font-size: 3vw;
+}
+.signup-container input{
+  font-size: 3vh;
+}
+.signup-container button{
+  font-size: 1.2vw;
+  padding: 3px;
+}
+.signup-container p,
+.signup-container label{
+  font-size: 1vw;
+}
+
+@media (max-width : 576px){
+  .hero-left button{
+    padding: 2px;
+    background-color: blue;
+    color: white;
+    font-size: 0.7vw;
+  }
+  .herosection{
+    background-color: #f73353;
+  }
+  .navbar-logo img{
+    width: 2rem;
+  }
+  .logincart button{
+    font-size: 1.5vw;
+    padding: 3px;
+  }
+  .logincart img{
+    width: 1.5rem;
+  }
+}
+
+@media (max-width : 995px){
+  .newsletter-container input{
+    font-size: 1.3vw;
+    height: 2vh;
+  }
+  .login-container input,
+  .signup-container input{
+    font-size: 1.1vh;
+  }
+
+}
