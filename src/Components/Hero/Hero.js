@@ -1,30 +1,27 @@
 import handicon from "../Assets/hand_icon.png";
-import arrow from "../Assets/arrow.png";
 import React from "react";
 import heroImage from "../Assets/hero_image.png";
 const Hero = () => {
   return (
     <div className="container-fluid herosection">
-      <div className="row justify-content-center  align-items-center py-2">
+      <div className="row justify-content-center align-items-center py-2">
         <div className="col-4 hero-left ">
           <div className="row flex-column  ">
-            <h2 className="my-0 text-nowrap ">NEW ARRIVALS ONLY</h2>
+            <h2 className="my-0 text-nowrap bg-danger d-flex justify-content-center boss">
+              BEST OF SEASON COLLECTION
+            </h2>
             <div className="d-flex ">
-              <p className="my-0">new</p>
               <img src={handicon} className="handicon" alt=""></img>
             </div>
-            <p className="my-0">collections</p>
-            <p className="my-0 text-nowrap">for everyone</p>
-            <button className="btn d-flex justify-content-center align-items-center btn-danger text-nowrap px-3 px-sm-5">
-              Latest Collections
-              <span className="mx-1 mx-sm-2">
-                <img src={arrow}></img>
-              </span>
-            </button>
+            <p className="my-0">All Season Festivals in Styles</p>
+            <p className="my-0 text-nowrap">minimum 50% off</p>
+            <h2 className="bg-warning w-25 ms-2 fw-bold text-nowrap py-1 d-flex justify-content-center ">
+              Shop Now
+            </h2>
           </div>
         </div>
-        <div className="col-4">
-          <img src={heroImage} className="img-fluid"></img>
+        <div className="col-4 d-flex justify-content-center ">
+          <img src={heroImage} className="hero-image"></img>
         </div>
       </div>
     </div>
