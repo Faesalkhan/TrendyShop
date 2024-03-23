@@ -29,7 +29,7 @@ const Login = () => {
             </div>
             <div className="col mb-1 mb-sm-2">
               <p className="m-0">
-                Don't have account?
+                Don't have account?{" "}
                 <a href="/signup" className="text-decoration-none ">
                   Click here
                 </a>

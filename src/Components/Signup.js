@@ -8,7 +8,7 @@ const Signup = () => {
             <div className="col text-center my-1 my-sm-2 ">
               <h1>Sign Up</h1>
             </div>
-            <div className="colmy-1 my-sm-2 ">
+            <div className="col mt-1 mt-sm-2 ">
               <input
                 type="text"
                 className="form-control"
@@ -36,7 +36,7 @@ const Signup = () => {
             </div>
             <div className="col mb-1 mb-sm-2">
               <p className="m-0">
-                Already have an account <a href="/login">Login</a>
+                Already have an account? <a href="/login">Login</a>
               </p>
             </div>
             <div className="col d-flex justify-content-start align-items-center mb-1 mb-sm-2">
