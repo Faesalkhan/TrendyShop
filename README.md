@@ -1,4 +1,4 @@
-# TrendyShop E-Commerce Website [🔗](https://trendy-shop-xi.vercel.app/)
+# [🔗](https://trendy-shop-xi.vercel.app/) TrendyShop E-Commerce Website
 
 ![Alt Text](src/Components/Assets/ecommerce.png)
 ![Alt Text](src/Components/Assets/ecommerce.2png.png)
