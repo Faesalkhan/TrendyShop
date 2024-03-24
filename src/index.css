@@ -1,3 +1,4 @@
+/*---------------NavBar---------------*/
 .navbar-logo span{
   font-size: 2vw;
   font-weight: 700;
@@ -12,47 +13,59 @@
 color: black;
 font-size: 2vw
 }
+.logincart button{
+  font-size: 1vw;
+  padding: 4px;
+}
+.logincart img{
+  width: 2.5vw;
+}
+.logincart span{
+  font-size: 1vw;
+}
+
+/*------------- Hero ---------------*/
 .handicon{
   width: 8vw;
 }
 .herosection{
-  background-color: aqua;
-  line-height: 1.1;
+  background-color: #83dfa2;
+  line-height: 1.2;
+  height: auto;
+}
+.herosection .boss{
+  width: min-content;
 }
 .hero-left h2{
   color: navy;
-  font-weight: 600;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 .hero-left p{
   color: darkblue;
-  font-size: 4vw;
+  font-size: 2vw;
   font-weight: 700;
-}
-.hero-left button{
-  border-radius: 40px;
-  font-size: 1vw;
-  font-weight: 600;
-  width: 40%;
-  margin-left: 0.5rem;
 } 
-.hero-left button img{
-  width: 2vw;
+.herosection .hero-image{
+  width: 13vw;
 }
 
-
-.polularContainer h2{
+/*------------- Popular ---------------*/
+.polularContainer h2,
+.realeted-container h2{
   font-size: 3vw;
 }
 
+/*------------ Item ----------------*/
 .item:hover{
   transform: scale(95%);
 }
 .item p{
   font-size: 1vw;
 }
+
+/*------------- Offers ---------------*/
 .offers-section{
-  background-color: #83dfa2;
+  background-color: #dfb7f8;
 }
 .offers-left h2{
   font-size: 4vw;
@@ -61,16 +74,20 @@ font-size: 2vw
 .offers-left p{
   font-size: 1.3vw;
 }
-.offers-left button{
-  font-size: 1vw;
-  font-weight: 600;
-  width: 30%;
-  margin-left: 0.5rem;
-  padding: 3px;
+.offers-left h5{
+  width: min-content;
+  font-size: 1.3vw;
 }
+.offers-section img{
+  width: 12vw;
+}
+
+/*------------- NewCollection ---------------*/
 .new-collection-container h2{
   font-size: 3vw;
 }
+
+/*-------------- NewsLetter --------------*/
 .newsletter-container h2{
   font-size: 3vw;
 }
@@ -84,6 +101,8 @@ font-size: 2vw
 .newsletter-container input{
   height: 4vh;
 }
+
+/*-------------- Footer --------------*/
 .footer-container ul li a{
   font-size: 1.4vw;
 }
@@ -102,17 +121,16 @@ font-size: 2vw
   font-size: 1.4vw;
 }
 
-
+/*------------- ShopCategory---------------*/
 .shopCategory-container .showingtext{
   font-size: 1.3vw;
 }
 .shopCategory-container button{
-  font-size: 1vw;
-  font-weight: 600;
+  font-size: 1.1vw;
+  padding: 3px;
 }
-.shopCategory-container .dropdownimg{
-  width: 1vw;
-}
+
+/*------------- Login ---------------*/
 .login-container {
   background-color: pink;
   height: 100vh;
@@ -131,6 +149,8 @@ font-size: 2vw
 .login-container label{
   font-size: 1vw;
 }
+
+/*------------- SignUp ---------------*/
 .signup-container{
   background-color: pink;
   height: 100vh;
@@ -150,16 +170,65 @@ font-size: 2vw
   font-size: 1vw;
 }
 
+/*-------------- Breadcrum --------------*/
+.breadcrum h6{
+  font-size: 1.5vw;
+}
+.breadcrum img{
+  width: 0.8vw;
+}
+
+/*-------------- Product --------------*/
+.product-container h4{
+  font-size: 2vw;
+}
+.product-container p{
+  font-size: 1.3vw;
+}
+.product-container p img{
+  width: 1vw;
+}
+.product-container p span{
+  font-size: 1vw;
+}
+.product-container .size-div{
+  font-size: 1.4vw;
+}
+.product-container button{
+  font-size: 1vw;
+  padding: 3px;
+  font-weight: 600;
+  width: 25%;
+}
+.product-container h6{
+  font-size: 1.3vw;
+}
+
+/*-------------- Cart --------------*/
+.cart-container h2{
+  font-size: 3vw;
+}
+.cart-container h5{
+  font-size: 1.4vw;
+}
+.cart-container img{
+  width: 5vw;
+}
+.cart-container p{
+  font-size: 1vw;
+}
+.cart-container .col-2{
+  text-align: center;
+}
+.cart-container button{
+  font-size: 1vw;
+  padding: 3px;
+}
+.cart-container h4{
+  font-size: 1.8vw;
+}
+
 @media (max-width : 576px){
-  .hero-left button{
-    padding: 2px;
-    background-color: blue;
-    color: white;
-    font-size: 0.7vw;
-  }
-  .herosection{
-    background-color: #f73353;
-  }
   .navbar-logo img{
     width: 2rem;
   }
@@ -168,7 +237,7 @@ font-size: 2vw
     padding: 3px;
   }
   .logincart img{
-    width: 1.5rem;
+    width: 5vw;
   }
 }
 
