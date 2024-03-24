@@ -5,8 +5,9 @@ import Footer from "./Footer";
 import star_dull_icon from "./Assets/star_dull_icon.png";
 import star_icon from "./Assets/star_icon.png";
 import RealetedProducts from "./RelatedProducts";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addToCart } from "./utils/cartSlice";
+import all_products from "./Assets/all_product";
 
 const Product = () => {
   const dispatch = useDispatch();
@@ -14,7 +15,6 @@ const Product = () => {
     dispatch(addToCart(x));
   };
 
-  const all_products = useSelector((store) => store.cart.items);
   const { productID } = useParams();
   const product = all_products.find((x) => x.id === Number(productID));
 

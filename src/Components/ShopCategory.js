@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
+import all_products from "./Assets/all_product";
 
 import Item from "./Item";
-import { useSelector } from "react-redux";
 const ShopCategory = ({ banner, category }) => {
-  const all_products = useSelector((store) => store.cart.items);
   const [sortedProducts, setSortedProducts] = useState(all_products);
 
   const handleSort = (order) => {
