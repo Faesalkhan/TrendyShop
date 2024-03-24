@@ -8,7 +8,6 @@ import ShopCategory from "./Components/ShopCategory";
 import men_banner from "./Components/Assets/banner_mens.png";
 import women_banner from "./Components/Assets/banner_women.png";
 import kids_banner from "./Components/Assets/banner_kids.png";
-import ShopContextProvider from "./Components/ShopContext";
 import Signup from "./Components/Signup";
 import Product from "./Components/Product";
 import { Provider } from "react-redux";
@@ -16,14 +15,12 @@ import { appStore } from "./Components/utils/appStore";
 
 const App = () => {
   return (
-    <ShopContextProvider>
-      <Provider store={appStore}>
-        <div className="container-fluid">
-          <NavBar />
-          <Outlet />
-        </div>
-      </Provider>
-    </ShopContextProvider>
+    <Provider store={appStore}>
+      <div className="container-fluid">
+        <NavBar />
+        <Outlet />
+      </div>
+    </Provider>
   );
 };
 const appRouter = createBrowserRouter([
@@ -44,7 +41,7 @@ const appRouter = createBrowserRouter([
         element: <ShopCategory category="women" banner={women_banner} />,
       },
       {
-        path: "/kids",
+        path: "/kid",
         element: <ShopCategory category="kid" banner={kids_banner} />,
       },
       {
