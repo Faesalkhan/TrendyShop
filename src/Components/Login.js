@@ -22,7 +22,7 @@ const Login = () => {
                 placeholder="Password"
               ></input>
             </div>
-            <div className="colmy-1 my-sm-2 text-center">
+            <div className="col my-1 my-sm-2 text-center">
               <button className="btn btn-danger w-50 fw-bold  ">
                 Continue
               </button>
