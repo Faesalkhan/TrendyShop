@@ -1,4 +1,4 @@
-# TrendyShop E-Commerce Website
+[Link Text](https://trendy-shop-xi.vercel.app/) # TrendyShop E-Commerce Website
 
 ![Alt Text](src/Components/Assets/ecommerce.png)
 ![Alt Text](src/Components/Assets/ecommerce.2png.png)
@@ -39,6 +39,6 @@ npm install
 npm start
 ```
 
-- Access the website in your browser at http://localhost:3000.
+- Access the website in your browser at localhost.
 
 Feel free to contribute to this project by submitting bug fixes, feature enhancements, or new ideas through pull requests.
