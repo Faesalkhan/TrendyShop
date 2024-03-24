@@ -1,7 +1,7 @@
 # TrendyShop E-Commerce Website
 
 ![Alt Text](src/Components/Assets/ecommerce.png)
-![Alt Text](src/Components/Assets/ecommerce2.png)
+![Alt Text](src/Components/Assets/ecommerce.2png.png)
 
 Welcome to our Fashion E-Commerce Website project! This website is designed to showcase and sell a variety of fashion products for men, women, and kids. The website is responsive, meaning it is optimized for viewing on smaller screens such as mobile devices.
 
