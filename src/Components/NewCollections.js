@@ -7,7 +7,7 @@ const NewCollections = () => {
       <h2 className="text-decoration-underline text-center text-nowrap my-2 my-sm-3 my-lg-5">
         NEW COLLECTIONS
       </h2>
-      <div className="row">
+      <div className="row justify-content-center ">
         {newCollections.map((item) => (
           <Item key={item.id} item={item} />
         ))}
