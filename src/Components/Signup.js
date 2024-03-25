@@ -3,7 +3,7 @@ const Signup = () => {
   return (
     <div className="container signup-container">
       <div className="row justify-content-center h-auto py-5">
-        <div className="col-5 bg-light py-3">
+        <div className="col-8 col-xs-6 col-sm-6 col-md-6 bg-light py-3">
           <div className="row flex-column align-items-center ">
             <div className="col text-center my-1 my-sm-2 ">
               <h1>Sign Up</h1>
