@@ -11,10 +11,10 @@
 }
 .nav li a{
 color: black;
-font-size: 2vw
+font-size: 2.5vw
 }
 .logincart button{
-  font-size: 1vw;
+  font-size: 1.4vw;
   padding: 4px;
 }
 .logincart img{
@@ -38,7 +38,7 @@ font-size: 2vw
 }
 .hero-left h2{
   color: navy;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
 }
 .hero-left p{
   color: darkblue;
@@ -56,11 +56,8 @@ font-size: 2vw
 }
 
 /*------------ Item ----------------*/
-.item:hover{
-  transform: scale(95%);
-}
 .item p{
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 /*------------- Offers ---------------*/
@@ -76,7 +73,7 @@ font-size: 2vw
 }
 .offers-left h5{
   width: min-content;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
 }
 .offers-section img{
   width: 12vw;
@@ -92,19 +89,19 @@ font-size: 2vw
   font-size: 3vw;
 }
 .newsletter-container p{
-  font-size: 1.3vw;
+  font-size: 1.7vw;
 }
 .newsletter-container button{
   font-size: 1vw;
   padding: 3px;
 }
 .newsletter-container input{
-  height: 4vh;
+  height: 5vh;
 }
 
 /*-------------- Footer --------------*/
 .footer-container ul li a{
-  font-size: 1.4vw;
+  font-size: 1.7vw;
 }
 .footer-container .logo{
   width: 6vw;
@@ -115,19 +112,19 @@ font-size: 2vw
 .footer-container .pin,
 .footer-container .what,
 .footer-container .insta{
-  width: 2vw;
+  width: 2.5vw;
 }
 .footer-container p{
-  font-size: 1.4vw;
+  font-size: 1.7vw;
 }
 
 /*------------- ShopCategory---------------*/
-.shopCategory-container .showingtext{
-  font-size: 1.3vw;
-}
 .shopCategory-container button{
-  font-size: 1.1vw;
+  font-size: 1.3vw;
   padding: 3px;
+}
+.shopCategory-container .showingtext{
+  font-size: 1.7vw;
 }
 
 /*------------- Login ---------------*/
@@ -142,12 +139,12 @@ font-size: 2vw
   font-size: 3vh;
 }
 .login-container button{
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   padding: 3px;
 }
 .login-container p,
 .login-container label{
-  font-size: 1vw;
+  font-size: 1.4vw;
 }
 
 /*------------- SignUp ---------------*/
@@ -162,17 +159,17 @@ font-size: 2vw
   font-size: 3vh;
 }
 .signup-container button{
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   padding: 3px;
 }
 .signup-container p,
 .signup-container label{
-  font-size: 1vw;
+  font-size: 1.4vw;
 }
 
 /*-------------- Breadcrum --------------*/
 .breadcrum h6{
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 .breadcrum img{
   width: 0.8vw;
@@ -186,16 +183,19 @@ font-size: 2vw
   font-size: 1.3vw;
 }
 .product-container p img{
-  width: 1vw;
+  width: 2vw;
 }
 .product-container p span{
   font-size: 1vw;
 }
-.product-container .size-div{
-  font-size: 1.4vw;
+.product-container .small-images{
+  width: 5vw;
+}
+.product-container .big-image{
+  width: 20vw;
 }
 .product-container button{
-  font-size: 1vw;
+  font-size: 1.4vw;
   padding: 3px;
   font-weight: 600;
   width: 25%;
@@ -209,13 +209,13 @@ font-size: 2vw
   font-size: 3vw;
 }
 .cart-container h5{
-  font-size: 1.4vw;
+  font-size: 1.5vw;
 }
 .cart-container img{
   width: 5vw;
 }
 .cart-container p{
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 .cart-container .col-2{
   text-align: center;
