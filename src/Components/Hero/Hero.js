@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="row justify-content-center align-items-center py-2">
         <div className="col-4 hero-left ">
           <div className="row flex-column  ">
-            <h2 className="my-0 text-nowrap bg-danger d-flex justify-content-center boss">
+            <h2 className="my-0 py-1 text-nowrap bg-danger d-flex justify-content-center boss">
               BEST OF SEASON COLLECTION
             </h2>
             <div className="d-flex ">
