@@ -28,7 +28,7 @@ const Cart = () => {
               <h5>Product</h5>
             </div>
             <div className="col-2">
-              <h5>Title</h5>
+              <h5>Size</h5>
             </div>
             <div className="col-2">
               <h5>Price</h5>
@@ -53,7 +53,6 @@ const Cart = () => {
                 <img src={eachItem.image} />
               </div>
               <div className="col-2">
-                {/* <p>{eachItem.name}</p> */}
                 <p>{eachItem.size}</p>
               </div>
               <div className="col-2 ">
