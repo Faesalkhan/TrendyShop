@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import Breadcrum from "./Breadcrum";
 import Footer from "./Footer";
@@ -10,32 +10,56 @@ import { addToCart } from "./utils/cartSlice";
 import all_products from "./Assets/all_product";
 
 const Product = () => {
-  const dispatch = useDispatch();
-  const addItem = (x) => {
-    dispatch(addToCart(x));
-  };
-
   const { productID } = useParams();
   const product = all_products.find((x) => x.id === Number(productID));
+
+  const dispatch = useDispatch();
+  const [size, setSize] = useState("");
+
+  const handleClickSize = (selectSize) => {
+    setSize(selectSize);
+  };
+  const handleAddtoCart = () => {
+    size === ""
+      ? alert("select size")
+      : dispatch(addToCart({ ...product, size }));
+    setSize("");
+  };
 
   return (
     <div className="container product-container">
       <div className="row">
         <Breadcrum product={product} />
-        <div className="col-xs-4 col-sm-6 col-md-6">
+        <div className="col-6 col-xs-6 col-sm-6 col-md-6">
           <div className="row justify-content-evenly align-items-start ">
-            <div className="col-2 col-xs-2 col-sm-2 col-md-2 ">
-              <img src={product.image} className="img-fluid my-md-1" alt="" />
-              <img src={product.image} className="img-fluid my-md-1" alt="" />
-              <img src={product.image} className="img-fluid my-md-1" alt="" />
-              <img src={product.image} className="img-fluid my-md-1" alt="" />
+            <div className="col-4 d-flex flex-column">
+              <img
+                src={product.image}
+                className="small-images my-md-1"
+                alt=""
+              />
+              <img
+                src={product.image}
+                className="small-images my-md-1"
+                alt=""
+              />
+              <img
+                src={product.image}
+                className="small-images my-md-1"
+                alt=""
+              />
+              <img
+                src={product.image}
+                className="small-images my-md-1"
+                alt=""
+              />
             </div>
-            <div className="col-5 col-xs-4 col-sm-6 col-md-9">
-              <img src={product.image} className="img-fluid" alt="" />
+            <div className="col d-flex justify-content-start  ">
+              <img src={product.image} className="big-image" alt="" />
             </div>
           </div>
         </div>
-        <div className="col-xs-4 col-sm-6 col-md-6">
+        <div className="col-6 col-xs-4 col-sm-6 col-md-6">
           <h4>{product.name}</h4>
           <p className="m-0">
             <img src={star_icon} alt="" />
@@ -59,19 +83,44 @@ const Product = () => {
             colors that keep you subtle & comfortable. Built for versatility,
             our essential pair of cargos find place in every man’s wardrobe.
           </p>
-          <div className="d-flex justify-content-start size-div my-1">
-            <div className="bg-light mx-1 p-1 px-md-3">S</div>
-            <div className="bg-light mx-1 p-1 px-md-3">M</div>
-            <div className="bg-light mx-1 p-1 px-md-3">L</div>
-            <div className="bg-light mx-1 p-1 px-md-3">XL</div>
-            <div className="bg-light mx-1 p-1 px-md-3">XXL</div>
+          <div className="d-flex my-1">
+            <button
+              className={`btn btn-light mx-1 ${size === "S" ? "active" : ""}`}
+              onClick={() => handleClickSize("S")}
+            >
+              S
+            </button>
+            <button
+              className={`btn btn-light mx-1 ${size === "M" ? "active" : ""}`}
+              onClick={() => handleClickSize("M")}
+            >
+              M
+            </button>
+            <button
+              className={`btn btn-light mx-1 ${size === "L" ? "active" : ""}`}
+              onClick={() => handleClickSize("L")}
+            >
+              L
+            </button>
+            <button
+              className={`btn btn-light mx-1 ${size === "XL" ? "active" : ""}`}
+              onClick={() => handleClickSize("XL")}
+            >
+              XL
+            </button>
+            <button
+              className={`btn btn-light mx-1 ${size === "XXL" ? "active" : ""}`}
+              onClick={() => handleClickSize("XXL")}
+            >
+              XXL
+            </button>
           </div>
           <div>
             <button
-              className="btn btn-danger text-white text-nowrap "
-              onClick={() => addItem(product)}
+              className="btn btn-danger d-flex justify-content-center text-white text-nowrap "
+              onClick={handleAddtoCart}
             >
-              ADD TO CART
+              ADD+
             </button>
           </div>
           <div>
