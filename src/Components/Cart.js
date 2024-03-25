@@ -45,15 +45,19 @@ const Cart = () => {
             <hr />
           </div>
           {cartItems.map((eachItem) => (
-            <div key={eachItem.id} className="row justify-content-evenly">
+            <div
+              key={eachItem.id}
+              className="row justify-content-evenly align-items-center "
+            >
               <div className="col-2">
                 <img src={eachItem.image} />
               </div>
               <div className="col-2">
-                <p>{eachItem.name}</p>
+                {/* <p>{eachItem.name}</p> */}
+                <p>{eachItem.size}</p>
               </div>
               <div className="col-2 ">
-                <p className="fw-bold">$ {eachItem.new_price}</p>
+                <p className="fw-bold my-0">$ {eachItem.new_price}</p>
               </div>
               <div className="col-2 btn-btn-group-sm d-flex justify-content-center align-items-start">
                 <button
@@ -73,7 +77,9 @@ const Cart = () => {
                 </button>
               </div>
               <div className="col-2">
-                <p className="fw-bold">${eachItem.new_price * eachItem.qty}</p>
+                <p className="fw-bold m-0">
+                  ${eachItem.new_price * eachItem.qty}
+                </p>
               </div>
               <div className="col-2">
                 <button
