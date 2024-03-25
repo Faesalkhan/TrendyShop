@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "./Footer";
 import all_products from "./Assets/all_product";
-
 import Item from "./Item";
 const ShopCategory = ({ banner, category }) => {
-  const [sortedProducts, setSortedProducts] = useState(all_products);
+  const [sortedProducts, setSortedProducts] = useState([]);
+
+  useEffect(() => {
+    const filteredProducts = all_products.filter(
+      (prod) => prod.category === category
+    );
+    setSortedProducts(filteredProducts);
+  }, [category]);
 
   const handleSort = (order) => {
     let sortedItems = [...sortedProducts];
@@ -47,14 +53,10 @@ const ShopCategory = ({ banner, category }) => {
           </div>
         </div>
         <div className="col-10">
-          <div className="row">
-            {sortedProducts.map((item) => {
-              if (item.category === category) {
-                return <Item key={item.id} item={item} />;
-              } else {
-                return null;
-              }
-            })}
+          <div className="row justify-content-center ">
+            {sortedProducts.map((item) => (
+              <Item key={item.id} item={item} />
+            ))}
           </div>
         </div>
       </div>
