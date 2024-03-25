@@ -14,7 +14,9 @@ const cartSlice = createSlice({
       );
       if (existItem) {
         const updatedItems = state.items.map((item) =>
-          item.id === action.payload.id ? { ...item, qty: item.qty + 1 } : item
+          item.id === action.payload.id
+            ? { ...item, qty: item.qty + 1, size: item.size }
+            : item
         );
         return {
           ...state,
