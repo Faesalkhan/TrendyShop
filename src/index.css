@@ -14,19 +14,16 @@ color: black;
 font-size: 2.5vw
 }
 .logincart button{
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   padding: 4px;
 }
 .logincart img{
   width: 2.5vw;
 }
-.logincart span{
-  font-size: 1vw;
-}
 
 /*------------- Hero ---------------*/
 .handicon{
-  width: 8vw;
+  width: 80px;
 }
 .herosection{
   background-color: #83dfa2;
@@ -36,17 +33,22 @@ font-size: 2.5vw
 .herosection .boss{
   width: min-content;
 }
+.hero-left{
+  margin-left: 30px;
+}
 .hero-left h2{
   color: navy;
-  font-size: 1.5vw;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 2px;
 }
 .hero-left p{
   color: darkblue;
-  font-size: 2vw;
+  font-size: 40px;
   font-weight: 700;
 } 
 .herosection .hero-image{
-  width: 13vw;
+  width: 200px;
 }
 
 /*------------- Popular ---------------*/
@@ -57,26 +59,29 @@ font-size: 2.5vw
 
 /*------------ Item ----------------*/
 .item p{
-  font-size: 1.5vw;
+  font-size: 15px;
 }
 
 /*------------- Offers ---------------*/
 .offers-section{
   background-color: #dfb7f8;
 }
+.offers-left{
+  margin-left: 30px;
+}
 .offers-left h2{
-  font-size: 4vw;
+  font-size: 60px;
   font-weight: 600;
 }
 .offers-left p{
-  font-size: 1.3vw;
+  font-size: 20px;
 }
 .offers-left h5{
   width: min-content;
-  font-size: 1.5vw;
+  font-size: 25px;
 }
 .offers-section img{
-  width: 12vw;
+  width: 200px;
 }
 
 /*------------- NewCollection ---------------*/
@@ -86,46 +91,51 @@ font-size: 2.5vw
 
 /*-------------- NewsLetter --------------*/
 .newsletter-container h2{
-  font-size: 3vw;
+  font-size: 40px;
 }
 .newsletter-container p{
-  font-size: 1.7vw;
+  font-size: 20px;
 }
 .newsletter-container button{
-  font-size: 1vw;
+  font-size: 20px;
   padding: 3px;
 }
 .newsletter-container input{
-  height: 5vh;
+  height: 30px;
 }
 
 /*-------------- Footer --------------*/
 .footer-container ul li a{
-  font-size: 1.7vw;
+  font-size: 20px;
 }
 .footer-container .logo{
   width: 6vw;
 }
 .footer-container h3{
-  font-size: 2vw;
+  font-size: 30px;
 }
 .footer-container .pin,
 .footer-container .what,
 .footer-container .insta{
-  width: 2.5vw;
+  width: 35px;
+  margin-inline: 25px;
 }
 .footer-container p{
-  font-size: 1.7vw;
+  font-size: 20px;
 }
 
 /*------------- ShopCategory---------------*/
 .shopCategory-container button{
-  font-size: 1.3vw;
-  padding: 3px;
+  font-size: 20px;
 }
 .shopCategory-container .showingtext{
-  font-size: 1.7vw;
+  font-size: 25px;
 }
+.shop-row,
+.new-collection-row{
+  row-gap: 30px;
+}
+
 
 /*------------- Login ---------------*/
 .login-container {
@@ -133,18 +143,18 @@ font-size: 2.5vw
   height: 100vh;
 }
 .login-container h1{
-  font-size: 3vw;
+  font-size: 40px;
 }
 .login-container input{
-  font-size: 3vh;
+  font-size: 20px;
 }
 .login-container button{
-  font-size: 1.4vw;
-  padding: 3px;
+  font-size: 25px;
+  padding: 2px;
 }
 .login-container p,
 .login-container label{
-  font-size: 1.4vw;
+  font-size: 18px;
 }
 
 /*------------- SignUp ---------------*/
@@ -153,92 +163,76 @@ font-size: 2.5vw
   height: 100vh;
 }
 .signup-container h1{
-  font-size: 3vw;
+  font-size: 40px;
 }
 .signup-container input{
-  font-size: 3vh;
+  font-size: 20px;
 }
 .signup-container button{
-  font-size: 1.4vw;
+  font-size: 25px;
   padding: 3px;
 }
 .signup-container p,
 .signup-container label{
-  font-size: 1.4vw;
+  font-size: 18px;
 }
 
 /*-------------- Breadcrum --------------*/
-.breadcrum h6{
-  font-size: 2vw;
+.breadcrum h6 {
+  font-size: 20px;
 }
 .breadcrum img{
-  width: 0.8vw;
+  width: 7px;
 }
 
 /*-------------- Product --------------*/
 .product-container h4{
-  font-size: 2vw;
+  font-size: 20px;
 }
 .product-container p{
-  font-size: 1.3vw;
+  font-size: 20px;
 }
 .product-container p img{
-  width: 2vw;
+  width: 15px;
 }
 .product-container p span{
-  font-size: 1vw;
+  font-size: 15px;
 }
 .product-container .small-images{
   width: 5vw;
 }
 .product-container .big-image{
-  width: 20vw;
+  width: 25vw;
 }
 .product-container button{
-  font-size: 1.4vw;
+  font-size: 20px;
   padding: 3px;
   font-weight: 600;
   width: 25%;
 }
-.product-container h6{
-  font-size: 1.3vw;
-}
 
 /*-------------- Cart --------------*/
 .cart-container h2{
-  font-size: 3vw;
+  font-size: 60px;
 }
 .cart-container h5{
-  font-size: 1.5vw;
+  font-size: 25px;
 }
 .cart-container img{
-  width: 5vw;
+  width: 10vw;
 }
 .cart-container p{
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 .cart-container .col-2{
   text-align: center;
 }
 .cart-container button{
-  font-size: 1vw;
+  font-size: 20px;
   padding: 3px;
 }
 .cart-container h4{
-  font-size: 1.8vw;
-}
-
-@media (max-width : 576px){
-  .navbar-logo img{
-    width: 2rem;
-  }
-  .logincart button{
-    font-size: 1.5vw;
-    padding: 3px;
-  }
-  .logincart img{
-    width: 5vw;
-  }
+  font-size: 40px;
 }
 
 @media (max-width : 995px){
@@ -250,5 +244,343 @@ font-size: 2.5vw
   .signup-container input{
     font-size: 1.1vh;
   }
+  .logincart span{
+    margin-left: 3px;
+    margin-top: 6px;
+    font-size: 8px
+  }
+  .logincart .cart-items-count{
+    width: 30px;
+  }
+  .item p{
+    font-size: 12px;
+  }
+  .hero-left h2{
+    font-size: 10px;
+    padding-inline: 4px;
+  }
+  .handicon{
+    width: 60px;
+  }
+  .hero-left p{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .herosection .hero-image{
+    width: 150px;
+  }
+  .offers-left h2{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .offers-left p{
+    font-size: 12px;
+  }
+  .offers-left h5{
+    width: min-content;
+    font-size: 17px;
+  }
+  .newsletter-container h2{
+    font-size: 30px;
+  }
+  .newsletter-container p{
+    font-size: 15px;
+  }
+  .newsletter-container button{
+    font-size: 15px;
+    padding: 2px;
+  }
+  .newsletter-container input{
+    height: 25px;
+  }
+  .footer-container ul li a{
+    font-size: 15px;
+  }
+  .footer-container h3{
+    font-size: 20px;
+  }
+  .footer-container p{
+    font-size: 15px;
+  }
+  .footer-container .pin,
+.footer-container .what,
+.footer-container .insta{
+  width: 22px;
+  margin-inline: 25px;
+}
+.shopCategory-container button{
+  font-size: 10px;
+}
+.shopCategory-container .showingtext{
+  font-size: 15px;
+}
+.shop-row,
+.new-collection-row{
+  row-gap: 25px;
+}
+
+.login-container h1{
+  font-size: 30px;
+}
+.login-container input{
+  font-size: 15px;
+}
+.login-container button{
+  font-size: 20px;
+  padding: 1px;
+}
+.login-container p,
+.login-container label{
+  font-size: 12px;
+}
+.signup-container h1{
+  font-size: 30px;
+}
+.signup-container input{
+  font-size: 15px;
+}
+.signup-container button{
+  font-size: 20px;
+  padding: 2px;
+}
+.signup-container p,
+.signup-container label{
+  font-size: 12px;
+}
+.breadcrum h6{
+  font-size: 15px;
+}
+.breadcrum img{
+  width: 9px;
+}
+.product-container h4{
+  font-size: 15px;
+}
+.product-container p{
+  font-size: 15px;
+}
+.product-container p img{
+  width: 10px;
+}
+.product-container p span{
+  font-size: 10px;
+}
+.product-container .small-images{
+  width: 5vw;
+}
+.product-container .big-image{
+  width: 30vw;
+}
+.product-container button{
+  font-size: 15px;
+  padding: 3px;
+  font-weight: 600;
+  width: 25%;
+} 
+
+.cart-container h2{
+  font-size: 50px;
+}
+.cart-container h5{
+  font-size: 18px;
+}
+.cart-container img{
+  width: 8vw;
+}
+.cart-container p{
+  font-size: 15px;
+}
+.cart-container button{
+  font-size: 15px;
+  padding: 2px;
+}
+.cart-container h4{
+  font-size: 30px;
+}
+}
+
+@media (max-width : 576px){
+  .navbar-logo img{
+    width: 2rem;
+  }
+  .logincart img{
+    width: 4vw;
+  }
+  .logincart span{
+    margin-left: 2px;
+    margin-top: 6px;
+    font-size: 6px
+  }
+  .logincart .cart-items-count{
+    width: 20px;
+  }
+  .item p{
+    font-size: 9px;
+  }
+  .hero-left h2{
+    font-size: 8px;
+    padding-inline: 5px;
+  }
+  .handicon{
+    width: 30px;
+  }
+  .hero-left{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-left p{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .herosection .hero-image{
+   display: none;
+  }
+
+  .offers-left h2{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .offers-left p{
+    font-size: 10px;
+  }
+  .offers-left h5{
+    width: min-content;
+    font-size: 10px;
+  }
+  .offers-section img{
+    display: none;
+  }
+  .offers-left{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .newsletter-container h2{
+    font-size: 15px;
+  }
+  .newsletter-container p{
+    font-size: 8px;
+  }
+  .newsletter-container button{
+    font-size: 8px;
+    padding: 2px;
+  }
+  .newsletter-container input{
+    height: 12px;
+  }
+  .footer-container ul li a{
+    font-size: 10px;
+  }
+  .footer-container h3{
+    font-size: 15px;
+  }
+  .footer-container p{
+    font-size: 10px;
+  }
+  .footer-container .pin,
+.footer-container .what,
+.footer-container .insta{
+  width: 15px;
+  margin-inline: 20px;
+}
+.shopCategory-container button{
+  font-size: 7px;
+}
+.shopCategory-container .showingtext{
+  font-size: 8px;
+}
+.shop-row,
+.new-collection-row{
+  row-gap: 15px;
+}
+.login-container h1{
+  font-size: 20px;
+}
+.login-container input{
+  font-size: 10px;
+}
+.login-container button{
+  font-size: 15px;
+  padding: 1px;
+}
+.login-container p,
+.login-container label{
+  font-size: 10px;
+}
+.signup-container h1{
+  font-size: 20px;
+}
+.signup-container input{
+  font-size: 10px;
+}
+.signup-container button{
+  font-size: 15px;
+  padding: 1px;
+}
+.signup-container p,
+.signup-container label{
+  font-size: 10px;
+}
+.breadcrum h6{
+  font-size: 10px;
+}
+.breadcrum img{
+  width: 7px;
+}
+
+.product-container h4{
+  font-size: 15px;
+}
+.product-container p{
+  font-size: 10px;
+}
+.product-container p img{
+  width: 10px;
+}
+.product-container p span{
+  font-size: 10px;
+}
+.product-container .small-images{
+  width: 8vw;
+}
+.product-container .big-image{
+  width: 25vw;
+}
+.product-container button{
+  font-size: 13px;
+  padding: 2px;
+  font-weight: 600;
+  width: 25%;
+}
+.cart-container .cart-header{
+  display: none;
+}
+.cart-container .cart-products-header .unit-price{
+  display: none;
+}
+.cart-container h2{
+  font-size: 30px;
+}
+.cart-container h5{
+  font-size: 10px;
+}
+.cart-container img{
+  width: 17vw;
+}
+.cart-container p{
+  font-size: 10px;
+}
+.cart-container .col-2{
+  display: flex;
+  justify-content: center;
+}
+.cart-container button{
+  font-size: 10px;
+  padding: 1px;
+}
+.cart-container h4{
+  font-size: 20px;
+}
 
 }
