@@ -12,7 +12,7 @@ const Footer = () => {
           <h3 className="fw-bold bg-danger rounded-3 p-1">TRENDYSHOP</h3>
         </div>
         <div className="col-xs-12 col-sm-10 col-md-8 d-flex justify-content-center my-1 my-lg-2">
-          <ul className="nav ">
+          <ul className="nav flex-nowrap  ">
             <li className="nav-item">
               <a className="nav-link">Company</a>
             </li>

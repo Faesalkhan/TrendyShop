@@ -30,36 +30,43 @@ const Product = () => {
     <div className="container product-container">
       <div className="row">
         <Breadcrum product={product} />
-        <div className="col-6 col-xs-6 col-sm-6 col-md-6">
-          <div className="row justify-content-evenly align-items-start ">
-            <div className="col-4 d-flex flex-column">
-              <img
-                src={product.image}
-                className="small-images my-md-1"
-                alt=""
-              />
-              <img
-                src={product.image}
-                className="small-images my-md-1"
-                alt=""
-              />
-              <img
-                src={product.image}
-                className="small-images my-md-1"
-                alt=""
-              />
+        <div className="col-12 col-md-6 col-lg-6">
+          <div className="col-12 d-flex justify-content-center  ">
+            <img src={product.image} className="big-image" alt="" />
+          </div>
+
+          <div className="row justify-content-between mx-auto my-1 ">
+            <div className="col-3 d-flex justify-content-center ">
               <img
                 src={product.image}
                 className="small-images my-md-1"
                 alt=""
               />
             </div>
-            <div className="col d-flex justify-content-start  ">
-              <img src={product.image} className="big-image" alt="" />
+            <div className="col-3 d-flex justify-content-center ">
+              <img
+                src={product.image}
+                className="small-images my-md-1"
+                alt=""
+              />
+            </div>
+            <div className="col-3 d-flex justify-content-center ">
+              <img
+                src={product.image}
+                className="small-images my-md-1"
+                alt=""
+              />
+            </div>
+            <div className="col-3 d-flex justify-content-center ">
+              <img
+                src={product.image}
+                className="small-images my-md-1"
+                alt=""
+              />
             </div>
           </div>
         </div>
-        <div className="col-6 col-xs-4 col-sm-6 col-md-6">
+        <div className="col-12 col-md-6 col-lg-6">
           <h4>{product.name}</h4>
           <p className="m-0">
             <img src={star_icon} alt="" />
@@ -77,13 +84,8 @@ const Product = () => {
               $ {product.old_price}
             </p>
           </div>
-          <p className="m-0">
-            Offering a range of lifestyle essentials that help you look good
-            every day. We brings a range of utility cargos in a variety of
-            colors that keep you subtle & comfortable. Built for versatility,
-            our essential pair of cargos find place in every man’s wardrobe.
-          </p>
-          <div className="d-flex my-1">
+          <h4 className="mt-1 mt-md-2">Select Size</h4>
+          <div className="d-flex my-1 w-50">
             <button
               className={`btn btn-light mx-1 ${size === "S" ? "active" : ""}`}
               onClick={() => handleClickSize("S")}
@@ -117,7 +119,7 @@ const Product = () => {
           </div>
           <div>
             <button
-              className="btn btn-danger d-flex justify-content-center text-white text-nowrap "
+              className="btn btn-danger d-flex justify-content-center text-white text-nowrap my-1 my-md-3"
               onClick={handleAddtoCart}
             >
               ADD+
@@ -129,6 +131,12 @@ const Product = () => {
               {product.category}
             </h6>
           </div>
+          <p className="m-0">
+            Offering a range of lifestyle essentials that help you look good
+            every day. We brings a range of utility cargos in a variety of
+            colors that keep you subtle & comfortable. Built for versatility,
+            our essential pair of cargos find place in every man’s wardrobe.
+          </p>
         </div>
         <div className="col-12 my-1">
           <div className="btn-group my-1 my-sm-3">

@@ -23,7 +23,7 @@ const Cart = () => {
         </h2>
       ) : (
         <Fragment>
-          <div className="row">
+          <div className="row cart-header">
             <div className="col-2">
               <h5>Product</h5>
             </div>
@@ -47,27 +47,29 @@ const Cart = () => {
           {cartItems.map((eachItem) => (
             <div
               key={eachItem.id}
-              className="row justify-content-evenly align-items-center "
+              className="row justify-content-evenly align-items-center border-bottom p-2 cart-products-header"
             >
               <div className="col-2">
                 <img src={eachItem.image} />
               </div>
               <div className="col-2">
-                <p>{eachItem.size}</p>
+                <p className="m-0 fw-bold">{eachItem.size}</p>
               </div>
-              <div className="col-2 ">
-                <p className="fw-bold my-0">$ {eachItem.new_price}</p>
+              <div className="col-2 unit-price">
+                <p className="fw-bold my-0 text-nowrap ">
+                  $ {eachItem.new_price}
+                </p>
               </div>
-              <div className="col-2 btn-btn-group-sm d-flex justify-content-center align-items-start">
+              <div className="col-2 btn-btn-group-sm d-flex justify-content-center align-items-center">
                 <button
                   className="btn btn-light"
                   onClick={() => handleDecrease(eachItem)}
                 >
                   {eachItem.qty === 1 ? "🗑️" : "➖"}
                 </button>
-                <button className="btn border-0 disabled mx-1 mx-sm-2 fw-bold ">
+                <p className="border-0 mx-1 mx-sm-2 my-auto fw-bold  ">
                   {eachItem.qty}
-                </button>
+                </p>
                 <button
                   className="btn btn-light"
                   onClick={() => handleIncrease(eachItem)}
@@ -88,24 +90,23 @@ const Cart = () => {
                   ❌
                 </button>
               </div>
-              <hr />
             </div>
           ))}
           <div className="row flex-column ">
             <h4>Cart Summary</h4>
-            <div className="col-4">
+            <div className="col col-md-6">
               <span className="d-flex justify-content-between border-bottom  ">
                 <h5>Subtotal</h5>
                 <h5>$ {total}</h5>
               </span>
             </div>
-            <div className="col-4">
+            <div className="col col-md-6">
               <span className="d-flex justify-content-between border-bottom ">
                 <h5>Delivery</h5>
                 <h5>{total < 500 ? 50 : 0}</h5>
               </span>
             </div>
-            <div className="col-4">
+            <div className="col col-md-6">
               <span className="d-flex justify-content-between ">
                 <h5 className="fw-bold">Total</h5>
                 <h5 className="fw-bold">
