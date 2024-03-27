@@ -30,7 +30,7 @@ const Signup = () => {
               ></input>
             </div>
             <div className="col mb-1 mb-sm-2 text-center">
-              <button className="btn btn-danger text-white w-50">
+              <button className="btn btn-danger text-white w-100 fw-bold">
                 Continue
               </button>
             </div>

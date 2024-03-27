@@ -23,7 +23,7 @@ const Login = () => {
               ></input>
             </div>
             <div className="col my-1 my-sm-2 text-center">
-              <button className="btn btn-danger w-50 fw-bold  ">
+              <button className="btn btn-danger w-100 fw-bold  ">
                 Continue
               </button>
             </div>
@@ -40,7 +40,7 @@ const Login = () => {
                 type="checkbox"
                 className="form-check-input me-2 border-black"
               ></input>
-              <label className="form-check-label text-nowrap">
+              <label className="form-check-label">
                 By continuing, I agree to the terms and conditions
               </label>
             </div>
