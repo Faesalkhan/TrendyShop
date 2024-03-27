@@ -40,7 +40,7 @@ const NavBar = () => {
           </button>
         </Link>
         <Link to="/cart">
-          <img src={cartlogo} alt="" className="img-fluid"></img>
+          <img src={cartlogo} alt="" className="cart-items-count"></img>
         </Link>
         <span className="bg-danger badge rounded-pill position-absolute start-100 translate-middle  ">
           {totalCartItems}
