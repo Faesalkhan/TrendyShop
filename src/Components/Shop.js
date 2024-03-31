@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "./Hero/Hero";
+import Hero from "./Hero";
 import Popular from "./Popular";
 import Offers from "./Offers";
 import NewCollections from "./NewCollections";

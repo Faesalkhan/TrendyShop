@@ -1,6 +1,6 @@
-import handicon from "../Assets/hand_icon.png";
+import handicon from "./Assets/hand_icon.png";
 import React from "react";
-import heroImage from "../Assets/hero_image.png";
+import heroImage from "./Assets/hero_image.png";
 const Hero = () => {
   return (
     <div className="container-fluid herosection">
