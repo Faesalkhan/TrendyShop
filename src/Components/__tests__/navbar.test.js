@@ -4,7 +4,6 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { appStore } from "../utils/appStore";
 import { BrowserRouter } from "react-router-dom";
-import cartlogo from "../Assets/cart_icon.png";
 
 test("should have TRENDYSHOP brand name", () => {
   render(
