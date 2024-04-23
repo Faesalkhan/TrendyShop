@@ -26,7 +26,7 @@ const ShopCategory = ({ banner, category }) => {
     <div className="container-fluid shopCategory-container">
       <div className="row justify-content-center">
         <div className="col-10  ">
-          <img src={banner} className="img-fluid" />
+          <img src={banner} alt="category-banner.png" className="img-fluid" />
         </div>
         <div className="col-12 my-3">
           <div className="row justify-content-between align-items-center  ">
