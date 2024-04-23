@@ -7,7 +7,7 @@ const RealetedProducts = () => {
       <h2 className="text-center text-nowrap my-2 my-sm-3  my-lg-5  text-decoration-underline ">
         RELATED PRODUCTS
       </h2>
-      <div className="row justify-content-center ">
+      <div className="row justify-content-center related-products-row">
         {data.map((item) => (
           <Item key={item.id} item={item} />
         ))}
