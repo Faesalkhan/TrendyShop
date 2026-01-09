@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Breadcrum from "./Breadcrum";
 import Footer from "./Footer";
@@ -11,7 +11,7 @@ import all_products from "./Assets/all_product";
 import img1 from "./Assets/p1_product_i1.png";
 import img2 from "./Assets/p1_product_i2.png";
 import img3 from "./Assets/p1_product_i3.png";
-import img4 from "./Assets/p1_product_i4.png";
+import img from "./Assets/product_2.png";
 
 const Product = () => {
   const { productID } = useParams();
@@ -19,7 +19,7 @@ const Product = () => {
 
   const dispatch = useDispatch();
   const [size, setSize] = useState("");
-  const [selectImg, setSelectImg] = useState(product.image);
+  const [selectImg, setSelectImg] = useState(img);
   const handleSelectImg = (selectedImg) => {
     setSelectImg(selectedImg);
   };
