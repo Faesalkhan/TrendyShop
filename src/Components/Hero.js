@@ -3,9 +3,9 @@ import React from "react";
 import heroImage from "./Assets/hero_image.png";
 const Hero = () => {
   return (
-    <div className="container-fluid herosection">
+    <div className="container-fluid herosection ">
       <div className="row justify-content-center align-items-center py-2">
-        <div className="col hero-left ">
+        <div className="col-12 col-sm-5 col-md-5 hero-left ">
           <div className="row flex-column  ">
             <h2 className="my-0 text-nowrap bg-danger d-flex justify-content-center boss">
               BEST OF SEASON COLLECTION
@@ -20,7 +20,7 @@ const Hero = () => {
             </h2>
           </div>
         </div>
-        <div className="col-5 d-flex justify-content-center ">
+        <div className="col-5 d-flex justify-content-end ">
           <img src={heroImage} className="hero-image"></img>
         </div>
       </div>

@@ -8,6 +8,10 @@ import RealetedProducts from "./RelatedProducts";
 import { useDispatch } from "react-redux";
 import { addToCart } from "./utils/cartSlice";
 import all_products from "./Assets/all_product";
+import img1 from "./Assets/p1_product_i1.png";
+import img2 from "./Assets/p1_product_i2.png";
+import img3 from "./Assets/p1_product_i3.png";
+import img4 from "./Assets/p1_product_i4.png";
 
 const Product = () => {
   const { productID } = useParams();
@@ -15,6 +19,10 @@ const Product = () => {
 
   const dispatch = useDispatch();
   const [size, setSize] = useState("");
+  const [selectImg, setSelectImg] = useState(product.image);
+  const handleSelectImg = (selectedImg) => {
+    setSelectImg(selectedImg);
+  };
 
   const handleClickSize = (selectSize) => {
     setSize(selectSize);
@@ -30,42 +38,85 @@ const Product = () => {
     <div className="container product-container">
       <div className="row">
         <Breadcrum product={product} />
-        <div className="col-12 col-md-6 col-lg-6">
-          <div className="col-12 d-flex justify-content-center  ">
-            <img src={product.image} className="big-image" alt="" />
+        {product.id === 2 ? (
+          <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 d-flex justify-content-center prodimgContainer ">
+              <img src={selectImg} className="big-image-2" alt="" />
+            </div>
+            <div className="row justify-content-between mx-auto my-1 ">
+              <div className="col-3 d-flex justify-content-center ">
+                <img
+                  src={product.image}
+                  onClick={() => handleSelectImg(product.image)}
+                  className="small-images my-md-1"
+                  alt=""
+                />
+              </div>
+              <div className="col-3 d-flex justify-content-center ">
+                <img
+                  src={img1}
+                  onClick={() => handleSelectImg(img1)}
+                  className="small-images my-md-1"
+                  alt=""
+                />
+              </div>
+              <div className="col-3 d-flex justify-content-center ">
+                <img
+                  src={img2}
+                  onClick={() => handleSelectImg(img2)}
+                  className="small-images my-md-1"
+                  alt=""
+                />
+              </div>
+              <div className="col-3 d-flex justify-content-center ">
+                <img
+                  src={img3}
+                  onClick={() => handleSelectImg(img3)}
+                  className="small-images my-md-1"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
+        ) : (
+          <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 d-flex justify-content-center prodimgContainer ">
+              <img src={product.image} className="big-image" alt="" />
+            </div>
 
-          <div className="row justify-content-between mx-auto my-1 ">
-            <div className="col-3 d-flex justify-content-center ">
-              <img
-                src={product.image}
-                className="small-images my-md-1"
-                alt=""
-              />
-            </div>
-            <div className="col-3 d-flex justify-content-center ">
-              <img
-                src={product.image}
-                className="small-images my-md-1"
-                alt=""
-              />
-            </div>
-            <div className="col-3 d-flex justify-content-center ">
-              <img
-                src={product.image}
-                className="small-images my-md-1"
-                alt=""
-              />
-            </div>
-            <div className="col-3 d-flex justify-content-center ">
-              <img
-                src={product.image}
-                className="small-images my-md-1"
-                alt=""
-              />
+            <div className="row justify-content-between mx-auto my-1 ">
+              <div className="col-3 d-flex justify-content-center ">
+                <img
+                  src={product.image}
+                  className="small-images my-md-1"
+                  alt=""
+                />
+              </div>
+              <div className="col-3 d-flex justify-content-center ">
+                <img
+                  src={product.image}
+                  className="small-images my-md-1"
+                  alt=""
+                />
+              </div>
+              <div className="col-3 d-flex justify-content-center ">
+                <img
+                  src={product.image}
+                  className="small-images my-md-1"
+                  alt=""
+                />
+              </div>
+              <div className="col-3 d-flex justify-content-center ">
+                <img
+                  src={product.image}
+                  className="small-images my-md-1"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
+        )}
+
         <div className="col-12 col-md-6 col-lg-6">
           <h4>{product.name}</h4>
           <p className="m-0">

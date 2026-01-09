@@ -30,15 +30,15 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-4 d-flex justify-content-evenly  ">
+        <div className="col-md-4 d-flex justify-content-evenly  ">
           <img src={pintester_icon} alt="" className="img-fluid pin" />
           <img src={whatsapp_icon} alt="" className="img-fluid what" />
           <img src={instagram_icon} alt="" className="img-fluid insta" />
         </div>
         <hr className="my-2 my-lg-4" />
         <div className="col-6">
-          <p className="fw-light text-center text-nowrap">
-            Copyright @2024 - All Rights Reserved
+          <p className="fw-light text-center text-nowrap fw-bold">
+            Copyright @2025 - All Rights Reserved
           </p>
         </div>
       </div>

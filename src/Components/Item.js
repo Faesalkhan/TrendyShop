@@ -9,7 +9,7 @@ const Item = ({ item }) => {
         onClick={window.scrollTo(0, 0)}
       >
         <div className="card border-0">
-          <img src={item.image} alt="" className="card-img"></img>
+          <img src={item.image} alt="" className="card-img" />
           <p className="mb-0">{item.name}</p>
           <div className="d-flex justify-content-start">
             <p className="fw-bold text-nowrap old-prices me-4">

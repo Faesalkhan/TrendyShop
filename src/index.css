@@ -1,179 +1,183 @@
 /*---------------NavBar---------------*/
-.navbar-logo span{
+.navbar-logo span {
   font-size: 2vw;
   font-weight: 700;
   background-color: #f73353;
   padding: 3px;
   border-radius: 10px;
 }
-.navbar-logo img{
+.navbar-logo img {
   width: 4rem;
 }
-.nav li a{
-color: black;
-font-size: 2.5vw
+.nav li a {
+  color: black;
+  font-size: 2.5vw;
 }
-.logincart button{
+.logincart button {
   font-size: 1.6vw;
   padding: 4px;
 }
-.logincart img{
+.logincart img {
   width: 2.5vw;
 }
 
 /*------------- Hero ---------------*/
-.handicon{
+.handicon {
   width: 80px;
 }
-.herosection{
+.herosection {
   background-color: #83dfa2;
   line-height: 1.2;
-  height: auto;
 }
-.herosection .boss{
+.herosection .boss {
   width: min-content;
+  padding: 10px;
+  border-radius: 4px;
+  color: #83dfa2;
 }
-.hero-left{
+.hero-left {
   margin-left: 30px;
 }
-.hero-left h2{
+.hero-left h2 {
   color: navy;
   font-size: 15px;
   margin-left: 10px;
   padding: 2px;
 }
-.hero-left p{
+.hero-left p {
   color: darkblue;
   font-size: 40px;
   font-weight: 700;
-} 
-.herosection .hero-image{
-  width: 200px;
 }
 
 /*------------- Popular ---------------*/
 .polularContainer h2,
-.realeted-container h2{
+.realeted-container h2 {
   font-size: 3vw;
 }
 
 /*------------ Item ----------------*/
-.item p{
+.item p {
   font-size: 15px;
+}
+.big-image {
+  height: 55vh;
+}
+.big-image-2 {
+  height: 55vh;
 }
 
 /*------------- Offers ---------------*/
-.offers-section{
+.offers-section {
   background-color: #dfb7f8;
 }
-.offers-left{
+.offers-left {
   margin-left: 30px;
 }
-.offers-left h2{
+.offers-left h2 {
   font-size: 60px;
   font-weight: 600;
 }
-.offers-left p{
+.offers-left p {
   font-size: 20px;
 }
-.offers-left h5{
+.offers-left h5 {
   width: min-content;
   font-size: 25px;
 }
-.offers-section img{
+.offers-section img {
   width: 200px;
 }
 
 /*------------- NewCollection ---------------*/
-.new-collection-container h2{
+.new-collection-container h2 {
   font-size: 3vw;
 }
 
 /*-------------- NewsLetter --------------*/
-.newsletter-container h2{
+.newsletter-container h2 {
   font-size: 40px;
 }
-.newsletter-container p{
+.newsletter-container p {
   font-size: 20px;
 }
-.newsletter-container button{
+.newsletter-container button {
   font-size: 20px;
   padding: 3px;
 }
-.newsletter-container input{
+.newsletter-container input {
   height: 30px;
 }
 
 /*-------------- Footer --------------*/
-.footer-container ul li a{
+.footer-container ul li a {
   font-size: 20px;
 }
-.footer-container .logo{
+.footer-container .logo {
   width: 6vw;
 }
-.footer-container h3{
+.footer-container h3 {
   font-size: 30px;
 }
 .footer-container .pin,
 .footer-container .what,
-.footer-container .insta{
+.footer-container .insta {
   width: 35px;
   margin-inline: 25px;
 }
-.footer-container p{
+.footer-container p {
   font-size: 20px;
 }
 
 /*------------- ShopCategory---------------*/
-.shopCategory-container button{
+.shopCategory-container button {
   font-size: 20px;
 }
-.shopCategory-container .showingtext{
+.shopCategory-container .showingtext {
   font-size: 25px;
 }
 .shop-row,
-.new-collection-row{
+.new-collection-row {
   row-gap: 30px;
 }
-
 
 /*------------- Login ---------------*/
 .login-container {
   background-color: pink;
   height: 100vh;
 }
-.login-container h1{
+.login-container h1 {
   font-size: 40px;
 }
-.login-container input{
+.login-container input {
   font-size: 20px;
 }
-.login-container button{
+.login-container button {
   font-size: 25px;
   padding: 2px;
 }
 .login-container p,
-.login-container label{
+.login-container label {
   font-size: 18px;
 }
 
 /*------------- SignUp ---------------*/
-.signup-container{
+.signup-container {
   background-color: pink;
   height: 100vh;
 }
-.signup-container h1{
+.signup-container h1 {
   font-size: 40px;
 }
-.signup-container input{
+.signup-container input {
   font-size: 20px;
 }
-.signup-container button{
+.signup-container button {
   font-size: 25px;
   padding: 3px;
 }
 .signup-container p,
-.signup-container label{
+.signup-container label {
   font-size: 18px;
 }
 
@@ -181,30 +185,27 @@ font-size: 2.5vw
 .breadcrum h6 {
   font-size: 20px;
 }
-.breadcrum img{
+.breadcrum img {
   width: 7px;
 }
 
 /*-------------- Product --------------*/
-.product-container h4{
+.product-container h4 {
   font-size: 20px;
 }
-.product-container p{
+.product-container p {
   font-size: 20px;
 }
-.product-container p img{
+.product-container p img {
   width: 15px;
 }
-.product-container p span{
+.product-container p span {
   font-size: 15px;
 }
-.product-container .small-images{
-  width: 5vw;
+.product-container .small-images {
+  width: 6vw;
 }
-.product-container .big-image{
-  width: 25vw;
-}
-.product-container button{
+.product-container button {
   font-size: 20px;
   padding: 3px;
   font-weight: 600;
@@ -212,375 +213,379 @@ font-size: 2.5vw
 }
 
 /*-------------- Cart --------------*/
-.cart-container h2{
+.cart-container h2 {
   font-size: 60px;
 }
-.cart-container h5{
+.cart-container h5 {
   font-size: 25px;
 }
-.cart-container img{
+.cart-container img {
   width: 10vw;
 }
-.cart-container p{
+.cart-container p {
   font-size: 20px;
 }
-.cart-container .col-2{
+.cart-container .col-2 {
   text-align: center;
 }
-.cart-container button{
+.cart-container button {
   font-size: 20px;
   padding: 3px;
 }
-.cart-container h4{
+.cart-container h4 {
   font-size: 40px;
 }
 
-@media (max-width : 995px){
-  .newsletter-container input{
+@media (max-width: 995px) {
+  .newsletter-container input {
     font-size: 1.3vw;
     height: 2vh;
   }
   .login-container input,
-  .signup-container input{
+  .signup-container input {
     font-size: 1.1vh;
   }
-  .logincart span{
+  .logincart span {
     margin-left: 3px;
     margin-top: 6px;
-    font-size: 8px
+    font-size: 8px;
   }
-  .logincart .cart-items-count{
+  .logincart .cart-items-count {
     width: 30px;
   }
-  .item p{
+  .item p {
     font-size: 12px;
   }
-  .hero-left h2{
+  .big-image-2 {
+    width: 40vw;
+  }
+  .hero-left h2 {
     font-size: 10px;
     padding-inline: 4px;
   }
-  .handicon{
+  .handicon {
     width: 60px;
   }
-  .hero-left p{
+  .hero-left p {
     font-size: 20px;
     font-weight: 700;
   }
-  .herosection .hero-image{
-    width: 150px;
+  .herosection .hero-image {
+    width: 250px;
   }
-  .offers-left h2{
+  .offers-left h2 {
     font-size: 40px;
     font-weight: 600;
   }
-  .offers-left p{
+  .offers-left p {
     font-size: 12px;
   }
-  .offers-left h5{
+  .offers-left h5 {
     width: min-content;
     font-size: 17px;
   }
-  .newsletter-container h2{
+  .newsletter-container h2 {
     font-size: 30px;
   }
-  .newsletter-container p{
+  .newsletter-container p {
     font-size: 15px;
   }
-  .newsletter-container button{
+  .newsletter-container button {
     font-size: 15px;
     padding: 2px;
   }
-  .newsletter-container input{
+  .newsletter-container input {
     height: 25px;
   }
-  .footer-container ul li a{
+  .footer-container ul li a {
     font-size: 15px;
   }
-  .footer-container h3{
+  .footer-container h3 {
     font-size: 20px;
   }
-  .footer-container p{
+  .footer-container p {
     font-size: 15px;
   }
   .footer-container .pin,
-.footer-container .what,
-.footer-container .insta{
-  width: 22px;
-  margin-inline: 25px;
-}
-.shopCategory-container button{
-  font-size: 10px;
-}
-.shopCategory-container .showingtext{
-  font-size: 15px;
-}
-.shop-row,
-.new-collection-row{
-  row-gap: 25px;
+  .footer-container .what,
+  .footer-container .insta {
+    width: 22px;
+    margin-inline: 25px;
+  }
+  .shopCategory-container button {
+    font-size: 10px;
+  }
+  .shopCategory-container .showingtext {
+    font-size: 15px;
+  }
+  .shop-row,
+  .new-collection-row {
+    row-gap: 25px;
+  }
+
+  .login-container h1 {
+    font-size: 30px;
+  }
+  .login-container input {
+    font-size: 15px;
+  }
+  .login-container button {
+    font-size: 20px;
+    padding: 1px;
+  }
+  .login-container p,
+  .login-container label {
+    font-size: 12px;
+  }
+  .signup-container h1 {
+    font-size: 30px;
+  }
+  .signup-container input {
+    font-size: 15px;
+  }
+  .signup-container button {
+    font-size: 20px;
+    padding: 2px;
+  }
+  .signup-container p,
+  .signup-container label {
+    font-size: 12px;
+  }
+  .breadcrum h6 {
+    font-size: 15px;
+  }
+  .breadcrum img {
+    width: 9px;
+  }
+  .product-container h4 {
+    font-size: 15px;
+  }
+  .product-container p {
+    font-size: 15px;
+  }
+  .product-container p img {
+    width: 10px;
+  }
+  .product-container p span {
+    font-size: 10px;
+  }
+  .product-container .small-images {
+    width: 6vw;
+  }
+  .product-container button {
+    font-size: 15px;
+    padding: 3px;
+    font-weight: 600;
+    width: 25%;
+  }
+
+  .cart-container h2 {
+    font-size: 50px;
+  }
+  .cart-container h5 {
+    font-size: 18px;
+  }
+  .cart-container img {
+    width: 8vw;
+  }
+  .cart-container p {
+    font-size: 15px;
+  }
+  .cart-container button {
+    font-size: 15px;
+    padding: 2px;
+  }
+  .cart-container h4 {
+    font-size: 30px;
+  }
 }
 
-.login-container h1{
-  font-size: 30px;
-}
-.login-container input{
-  font-size: 15px;
-}
-.login-container button{
-  font-size: 20px;
-  padding: 1px;
-}
-.login-container p,
-.login-container label{
-  font-size: 12px;
-}
-.signup-container h1{
-  font-size: 30px;
-}
-.signup-container input{
-  font-size: 15px;
-}
-.signup-container button{
-  font-size: 20px;
-  padding: 2px;
-}
-.signup-container p,
-.signup-container label{
-  font-size: 12px;
-}
-.breadcrum h6{
-  font-size: 15px;
-}
-.breadcrum img{
-  width: 9px;
-}
-.product-container h4{
-  font-size: 15px;
-}
-.product-container p{
-  font-size: 15px;
-}
-.product-container p img{
-  width: 10px;
-}
-.product-container p span{
-  font-size: 10px;
-}
-.product-container .small-images{
-  width: 5vw;
-}
-.product-container .big-image{
-  width: 30vw;
-}
-.product-container button{
-  font-size: 15px;
-  padding: 3px;
-  font-weight: 600;
-  width: 25%;
-} 
-
-.cart-container h2{
-  font-size: 50px;
-}
-.cart-container h5{
-  font-size: 18px;
-}
-.cart-container img{
-  width: 8vw;
-}
-.cart-container p{
-  font-size: 15px;
-}
-.cart-container button{
-  font-size: 15px;
-  padding: 2px;
-}
-.cart-container h4{
-  font-size: 30px;
-}
-}
-
-@media (max-width : 576px){
-  .navbar-logo img{
+@media (max-width: 576px) {
+  .navbar-logo img {
     width: 2rem;
   }
-  .logincart img{
+  .logincart img {
     width: 4vw;
   }
-  .logincart span{
+  .logincart span {
     margin-left: 2px;
     margin-top: 6px;
-    font-size: 6px
+    font-size: 6px;
   }
-  .logincart .cart-items-count{
+  .logincart .cart-items-count {
     width: 20px;
   }
-  .item p{
+  .item p {
     font-size: 9px;
   }
-  .hero-left h2{
+  .big-image-2 {
+    width: 65vw;
+  }
+  .hero-left h2 {
     font-size: 8px;
     padding-inline: 5px;
   }
-  .handicon{
+  .handicon {
     width: 30px;
   }
-  .hero-left{
+  .hero-left {
     margin-left: 0px;
     display: flex;
     justify-content: center;
   }
-  .hero-left p{
+  .hero-left p {
     font-size: 18px;
     font-weight: 700;
   }
-  .herosection .hero-image{
-   display: none;
+  .herosection .hero-image {
+    display: none;
   }
 
-  .offers-left h2{
+  .offers-left h2 {
     font-size: 30px;
     font-weight: 600;
   }
-  .offers-left p{
+  .offers-left p {
     font-size: 10px;
   }
-  .offers-left h5{
+  .offers-left h5 {
     width: min-content;
     font-size: 10px;
   }
-  .offers-section img{
+  .offers-section img {
     display: none;
   }
-  .offers-left{
+  .offers-left {
     margin-left: 0px;
     display: flex;
     justify-content: center;
   }
-  .newsletter-container h2{
+  .polularContainer h2,
+  .realeted-container h2,
+  .new-collection-container h2 {
+    font-size: 18px;
+  }
+  .newsletter-container h2 {
     font-size: 15px;
   }
-  .newsletter-container p{
+  .newsletter-container p {
     font-size: 8px;
   }
-  .newsletter-container button{
+  .newsletter-container button {
     font-size: 8px;
     padding: 2px;
   }
-  .newsletter-container input{
+  .newsletter-container input {
     height: 12px;
   }
-  .footer-container ul li a{
+  .footer-container ul li a {
     font-size: 10px;
   }
-  .footer-container h3{
-    font-size: 15px;
+  .footer-container h3 {
+    font-size: 10px;
   }
-  .footer-container p{
+  .footer-container p {
     font-size: 10px;
   }
   .footer-container .pin,
-.footer-container .what,
-.footer-container .insta{
-  width: 15px;
-  margin-inline: 20px;
-}
-.shopCategory-container button{
-  font-size: 7px;
-}
-.shopCategory-container .showingtext{
-  font-size: 8px;
-}
-.shop-row,
-.new-collection-row{
-  row-gap: 15px;
-}
-.login-container h1{
-  font-size: 20px;
-}
-.login-container input{
-  font-size: 10px;
-}
-.login-container button{
-  font-size: 15px;
-  padding: 1px;
-}
-.login-container p,
-.login-container label{
-  font-size: 10px;
-}
-.signup-container h1{
-  font-size: 20px;
-}
-.signup-container input{
-  font-size: 10px;
-}
-.signup-container button{
-  font-size: 15px;
-  padding: 1px;
-}
-.signup-container p,
-.signup-container label{
-  font-size: 10px;
-}
-.breadcrum h6{
-  font-size: 10px;
-}
-.breadcrum img{
-  width: 7px;
-}
+  .footer-container .what,
+  .footer-container .insta {
+    width: 15px;
+    margin-inline: 20px;
+  }
+  .shopCategory-container button {
+    font-size: 7px;
+  }
+  .shopCategory-container .showingtext {
+    font-size: 8px;
+  }
+  .shop-row,
+  .new-collection-row {
+    row-gap: 15px;
+  }
+  .login-container h1 {
+    font-size: 20px;
+  }
+  .login-container input {
+    font-size: 10px;
+  }
+  .login-container button {
+    font-size: 15px;
+    padding: 1px;
+  }
+  .login-container p,
+  .login-container label {
+    font-size: 10px;
+  }
+  .signup-container h1 {
+    font-size: 20px;
+  }
+  .signup-container input {
+    font-size: 10px;
+  }
+  .signup-container button {
+    font-size: 15px;
+    padding: 1px;
+  }
+  .signup-container p,
+  .signup-container label {
+    font-size: 10px;
+  }
+  .breadcrum h6 {
+    font-size: 10px;
+  }
+  .breadcrum img {
+    width: 7px;
+  }
 
-.product-container h4{
-  font-size: 15px;
-}
-.product-container p{
-  font-size: 10px;
-}
-.product-container p img{
-  width: 10px;
-}
-.product-container p span{
-  font-size: 10px;
-}
-.product-container .small-images{
-  width: 8vw;
-}
-.product-container .big-image{
-  width: 25vw;
-}
-.product-container button{
-  font-size: 13px;
-  padding: 2px;
-  font-weight: 600;
-  width: 25%;
-}
-.cart-container .cart-header{
-  display: none;
-}
-.cart-container .cart-products-header .unit-price{
-  display: none;
-}
-.cart-container h2{
-  font-size: 30px;
-}
-.cart-container h5{
-  font-size: 10px;
-}
-.cart-container img{
-  width: 17vw;
-}
-.cart-container p{
-  font-size: 10px;
-}
-.cart-container .col-2{
-  display: flex;
-  justify-content: center;
-}
-.cart-container button{
-  font-size: 10px;
-  padding: 1px;
-}
-.cart-container h4{
-  font-size: 20px;
-}
-
+  .product-container h4 {
+    font-size: 15px;
+  }
+  .product-container p {
+    font-size: 10px;
+  }
+  .product-container p img {
+    width: 10px;
+  }
+  .product-container p span {
+    font-size: 10px;
+  }
+  .product-container .small-images {
+    width: 9vw;
+  }
+  .product-container button {
+    font-size: 13px;
+    padding: 2px;
+    font-weight: 600;
+    width: 25%;
+  }
+  .cart-container .cart-header {
+    display: none;
+  }
+  .cart-container .cart-products-header .unit-price {
+    display: none;
+  }
+  .cart-container h2 {
+    font-size: 30px;
+  }
+  .cart-container h5 {
+    font-size: 10px;
+  }
+  .cart-container img {
+    width: 17vw;
+  }
+  .cart-container p {
+    font-size: 10px;
+  }
+  .cart-container .col-2 {
+    display: flex;
+    justify-content: center;
+  }
+  .cart-container button {
+    font-size: 10px;
+    padding: 1px;
+  }
+  .cart-container h4 {
+    font-size: 20px;
+  }
 }

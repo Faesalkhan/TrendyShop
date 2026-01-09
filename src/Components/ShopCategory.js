@@ -40,7 +40,7 @@ const ShopCategory = ({ banner, category }) => {
               <div className="row justify-content-evenly ">
                 <div className="col-5">
                   <button
-                    className="btn btn-light border-black rounded-5 mx-1 px-1 text-nowrap "
+                    className="btn btn-light mx-1 px-1 text-nowrap "
                     onClick={() => handleSort("lowtohigh")}
                   >
                     low to high⬇️
@@ -48,7 +48,7 @@ const ShopCategory = ({ banner, category }) => {
                 </div>
                 <div className="col-5">
                   <button
-                    className="btn btn-light border-black rounded-5 mx-1 px-1 text-nowrap "
+                    className="btn btn-light mx-1 px-1 text-nowrap "
                     onClick={() => handleSort("hightolow")}
                   >
                     high to low⬇️

@@ -16,10 +16,8 @@ import { appStore } from "./Components/utils/appStore";
 const App = () => {
   return (
     <Provider store={appStore}>
-      <div className="container-fluid">
-        <NavBar />
-        <Outlet />
-      </div>
+      <NavBar />
+      <Outlet />
     </Provider>
   );
 };
